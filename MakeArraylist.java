@@ -6,14 +6,14 @@ public class MakeArraylist {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String... args) {
-        ExamConsole ex = new ExamConsole();
+        ExamConsole ec = new ExamConsole();
         boolean loop = true;
 
         while (loop) {
             int m = menu();
             switch (m) {
-                case 1 -> ex.input();
-                case 2 -> ex.output();
+                case 1 -> ec.input();
+                case 2 -> ec.output();
                 case 3 -> {
                     System.out.println("프로그램 종료.");
                     loop = false;
